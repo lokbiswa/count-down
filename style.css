@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap");
+body {
+  background: url(./ltotbngnzzu.jpg);
+  height: 100vh;
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-family: "Open Sans";
+}
+h1,
+h2,
+h3 {
+  margin: 5px;
+}
+.container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.container .heading {
+  text-align: center;
+}
+.container .underline::before,
+.container .underline::after {
+  content: "";
+  display: block;
+  height: 20px;
+  width: 50%;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+}
+.dis-group {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+.dis {
+  max-width: 170px;
+  max-height: 170px;
+  height: 20%;
+  width: 20%;
+  margin: 4px;
+  border-radius: 10%;
+}
+
+.number {
+  text-align: center;
+  font-size: 5rem;
+  line-height: 100%;
+}
