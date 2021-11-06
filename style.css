@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap");
 body {
   background: url(./ltotbngnzzu.jpg);
+  background-size: cover;
   height: 100vh;
   color: rgb(255, 255, 255);
   font-size: 3rem;
@@ -25,7 +26,7 @@ h3 {
 .container .underline::after {
   content: "";
   display: block;
-  height: 20px;
+  height: 15px;
   width: 50%;
   margin: auto;
   background-color: rgb(255, 255, 255);
